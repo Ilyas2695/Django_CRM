@@ -1,0 +1,17 @@
+import mysql.connector
+
+database = mysql.connector.connect(
+    host = "localhost",
+    user = "root",
+    passwd = "Qwe12345"
+)   
+
+#prepare a cursor object
+cursorObject = database.cursor()
+
+#create a database
+cursorObject.execute("CREATE DATABASE dcrm_database")
+
+print("All Done!")
+
+
