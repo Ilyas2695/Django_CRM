@@ -80,7 +80,7 @@ DATABASES = {
         "NAME": "dcrm_database",
         "PASSWORD": "Qwe12345",
         "HOST": "localhost",
-        "POST": "3306",
+        "PORT": "3306",
     }
 }
 
